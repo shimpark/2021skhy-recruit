@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.wrap {
+  position: relative;
+  font-size: 0;
+}
+
+.wrap a {
+  position: absolute;
+  bottom: 37.22%;
+  display: block;
+  width: 15.26%;
+  font-size: 0;
+}
+
+/* 버튼 3개 */
+/* 
+.wrap a:nth-child(3) {
+    left: 26.45%;
+}
+
+.wrap a:nth-child(4) {
+    left: 42.44%;
+}
+
+.wrap a:nth-child(5) {
+    left: 58.42%;
+} 
+*/
+/* //버튼 3개 */
+
+/* 버튼 2개 */
+.wrap a:nth-child(3) {
+  left: 32.81%;
+}
+
+.wrap a:nth-child(4) {
+  left: 51.87%;
+}
+
+/* //버튼 2개 */
+
+.mb-wrap {
+  display: none;
+}
+
+@media (max-width: 576.98px) {
+  .pc-wrap-image {
+    display: none;
+  }
+
+  .mb-wrap {
+    display: block;
+  }
+
+  .wrap a {
+    position: absolute;
+    bottom: 37.18%;
+    display: block;
+    width: 26.63%;
+    font-size: 0;
+  }
+
+  /* 버튼 3개 */
+  /* 
+    .wrap a:nth-child(3) {
+        left: 8.9%;
+    }
+
+    .wrap a:nth-child(4) {
+        left: 36.81%;
+    }
+
+    .wrap a:nth-child(5) {
+        left: 64.72%;
+    } 
+    */
+  /* //버튼 3개 */
+
+  /* 버튼 2개 */
+  .wrap a:nth-child(3) {
+    left: 20.09%;
+  }
+
+  .wrap a:nth-child(4) {
+    left: 53.36%;
+  }
+
+  /* //버튼 2개 */
+}
