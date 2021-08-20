@@ -1,21 +1,35 @@
 @charset "utf-8";
 
+
 .wrap {
-  position: relative;
-  font-size: 0;
+    position: relative;
+    font-size: 0;
 }
 
 .wrap a {
-  position: absolute;
-  bottom: 37.22%;
-  display: block;
-  width: 15.26%;
-  font-size: 0;
+    position: absolute;
+    /* 21 08 20 네이블 수정 */
+    bottom: 39.47%;
+    display: block;
+    width: 15.26%;
+    font-size: 0;
 }
 
+
+/* 21 08 20 네이블 수정 추가 */
+.wrap a.kakao-btn {
+    left: 33.75%;
+    bottom: 3.61%;
+    width: 32.5%;
+    height: 3.67%;
+    display: block;
+}
+
+/* //21 08 20 네이블 수정 추가 */
+
 /* 버튼 3개 */
-/* 
-.wrap a:nth-child(3) {
+
+/* .wrap a:nth-child(3) {
     left: 26.45%;
 }
 
@@ -25,45 +39,54 @@
 
 .wrap a:nth-child(5) {
     left: 58.42%;
-} 
-*/
+} */
+
 /* //버튼 3개 */
 
 /* 버튼 2개 */
 .wrap a:nth-child(3) {
-  left: 32.81%;
+    /* 21 08 20 네이블 수정  */
+    left: 33.07%;
 }
 
 .wrap a:nth-child(4) {
-  left: 51.87%;
+    /* 21 08 20 네이블 수정 */
+    left: 52.18%;
 }
 
 /* //버튼 2개 */
 
 .mb-wrap {
-  display: none;
+    display: none;
 }
 
 @media (max-width: 576.98px) {
-  .pc-wrap-image {
-    display: none;
-  }
 
-  .mb-wrap {
-    display: block;
-  }
+    .pc-wrap-image {
+        display: none;
+    }
 
-  .wrap a {
-    position: absolute;
-    bottom: 37.18%;
-    display: block;
-    width: 26.63%;
-    font-size: 0;
-  }
+    .mb-wrap {
+        display: block;
+    }
 
-  /* 버튼 3개 */
-  /* 
-    .wrap a:nth-child(3) {
+    .wrap a {
+        /* 21 08 20 네이블 수정 */
+        /* bottom: 37.18%; */
+        width: 26.63%;
+    }
+
+    /* 21 08 20 네이블 수정 추가 */
+    .wrap a.kakao-btn {
+        left: 21.72%;
+        width: 56.72%;
+    }
+
+    /* //21 08 20 네이블 수정 추가 */
+
+    /* 버튼 3개 */
+
+    /* .wrap a:nth-child(3) {
         left: 8.9%;
     }
 
@@ -73,18 +96,20 @@
 
     .wrap a:nth-child(5) {
         left: 64.72%;
-    } 
-    */
-  /* //버튼 3개 */
+    } */
 
-  /* 버튼 2개 */
-  .wrap a:nth-child(3) {
-    left: 20.09%;
-  }
+    /* //버튼 3개 */
 
-  .wrap a:nth-child(4) {
-    left: 53.36%;
-  }
+    /* 버튼 2개 */
+    .wrap a:nth-child(3) {
+        /* 21 08 20 네이블 수정 */
+        left: 20.54%;
+    }
 
-  /* //버튼 2개 */
+    .wrap a:nth-child(4) {
+        /* 21 08 20 네이블 수정 */
+        left: 53.90%;
+    }
+
+    /* //버튼 2개 */
 }
